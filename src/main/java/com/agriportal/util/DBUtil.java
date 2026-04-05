@@ -5,9 +5,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBUtil {
-	private static final String URL ="jdbc:mysql://localhost:3306/agriportal";
+	private static final String URL ="mysql://root:KWlciAsHJIpPLKCEWakczYKhUKUgQjoo@junction.proxy.rlwy.net:36071/railway";
     private static final String USERNAME = "root";
-    private static final String PASSWORD ="nikhil123";
+    private static final String PASSWORD ="KWlciAsHJIpPLKCEWakczYKhUKUgQjoo";
     
     static {
     	try {
