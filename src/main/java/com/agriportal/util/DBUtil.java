@@ -5,7 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DBUtil {
-	private static final String URL ="mysql://root:KWlciAsHJIpPLKCEWakczYKhUKUgQjoo@junction.proxy.rlwy.net:36071/railway";
+	private static final String URL ="jdbc:mysql://junction.proxy.rlwy.net:36071/railway?useSSL=true&requireSSL=true";
     private static final String USERNAME = "root";
     private static final String PASSWORD ="KWlciAsHJIpPLKCEWakczYKhUKUgQjoo";
     
